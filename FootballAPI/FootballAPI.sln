@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2006
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballAPI", "FootballAPI\FootballAPI.csproj", "{BEDD9D8E-5161-4CB7-9F2E-72613B9D58D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballApi.test", "FootballApi.test\FootballApi.test.csproj", "{64696394-53D9-4144-A325-C79DE1B69109}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEDD9D8E-5161-4CB7-9F2E-72613B9D58D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEDD9D8E-5161-4CB7-9F2E-72613B9D58D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEDD9D8E-5161-4CB7-9F2E-72613B9D58D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEDD9D8E-5161-4CB7-9F2E-72613B9D58D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64696394-53D9-4144-A325-C79DE1B69109}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64696394-53D9-4144-A325-C79DE1B69109}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64696394-53D9-4144-A325-C79DE1B69109}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64696394-53D9-4144-A325-C79DE1B69109}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {93645377-07A4-4673-9857-252B0396405C}
+	EndGlobalSection
+EndGlobal
