@@ -21,4 +21,4 @@ script:
 
   - dotnet build
 
-  - dotnet test FootBallApiTest/footBallApiTest.csproj
+  - dotnet test FootBallApiTest/FootBallApiTest.csproj
