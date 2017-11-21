@@ -15,7 +15,7 @@ sudo: false
 solution: FootballAPI.sln
 
 script:
-  -cd FootballAPI
+  - cd FootballAPI
 
   - dotnet restore
 
