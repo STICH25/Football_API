@@ -12,7 +12,7 @@ dist: trusty
 
 sudo: false
 
-solution: footballAPI.sln
+solution: FootballAPI.sln
 
 script:
   -cd FootballAPI
@@ -21,4 +21,4 @@ script:
 
   - dotnet build
 
-  - dotnet test footBallApiTest/footBallApiTest.csproj
+  - dotnet test FootBallApiTest/footBallApiTest.csproj
