@@ -1,0 +1,15 @@
+﻿<Page
+    x:Class="XboxOneX_Frame_Rate_Counter.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:XboxOneX_Frame_Rate_Counter"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button Content="Start" HorizontalAlignment="Left" Margin="361,216,0,0" VerticalAlignment="Top" Height="52" Width="202" RenderTransformOrigin="-1.051,-3.06" Click="Button_Click"/>
+        <Button Content="Stop" HorizontalAlignment="Left" Height="55" Margin="361,310,0,0" VerticalAlignment="Top" Width="202" Click="Button_Click_1"/>
+
+    </Grid>
+</Page>

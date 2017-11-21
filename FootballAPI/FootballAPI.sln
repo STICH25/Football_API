@@ -1,11 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-VisualStudioVersion = 15.0.27004.2006
+VisualStudioVersion = 15.0.27004.2009
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballAPI", "FootballAPI\FootballAPI.csproj", "{BEDD9D8E-5161-4CB7-9F2E-72613B9D58D6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FootballAPI", "FootballAPI\FootballAPI.csproj", "{BEDD9D8E-5161-4CB7-9F2E-72613B9D58D6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootballApi.test", "FootballApi.test\FootballApi.test.csproj", "{64696394-53D9-4144-A325-C79DE1B69109}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FootBallApiTest", "FootBallApiTest\FootBallApiTest.csproj", "{732CDD42-8ACB-4E53-A5D1-D43464CA5BB4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{64696394-53D9-4144-A325-C79DE1B69109}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{64696394-53D9-4144-A325-C79DE1B69109}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{64696394-53D9-4144-A325-C79DE1B69109}.Release|Any CPU.Build.0 = Release|Any CPU
+		{732CDD42-8ACB-4E53-A5D1-D43464CA5BB4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{732CDD42-8ACB-4E53-A5D1-D43464CA5BB4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{732CDD42-8ACB-4E53-A5D1-D43464CA5BB4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{732CDD42-8ACB-4E53-A5D1-D43464CA5BB4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
