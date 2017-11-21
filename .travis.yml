@@ -1,0 +1,24 @@
+language: csharp
+
+provider: releases
+
+api_key: "XT7kPr7r6QQY68ZTVUE6"
+
+mono: none
+
+dotnet: 2.0.0
+
+dist: trusty
+
+sudo: false
+
+solution: footballAPI.sln
+
+script:
+  -cd FootballAPI
+
+  - dotnet restore
+
+  - dotnet build
+
+  - dotnet test footBallApiTest/footBallApiTest.csproj
